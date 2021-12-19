@@ -1,6 +1,6 @@
 #include "gtest/gtest.h"
 
-#include "../interval_map/interval_map.h"
+#include "../src/interval_map.h"
 
 TEST(NoAssign, Simple) {
 	interval_map<int, char> im('a');
